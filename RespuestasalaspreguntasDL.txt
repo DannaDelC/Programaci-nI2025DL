@@ -1,0 +1,64 @@
+1. Ver el video https://www.youtube.com/watch?v=HiXLkL42tMU&ab_channel=FaztEnlaces a un sitio externo.
+
+3. Resumen del video 
+En el video al inicio se nos explica el como podemos utilizar git y para que sirve, es decir que git es 
+un sistema de control de versiones que nos ayuda a poder ir trabajando un proyecto, código o trabajo de
+forma simultanea haciendo los cambios necesarios haciendo más fácil el trabajo en equipo y con
+proyectos con otras personas viendo fácilmente los cambios, errores etc. En git tenemos comandos que 
+nos ayudan a poder utilizar git más fácilmente, git tiene comandos básicos como gitinit que es pasa 
+crear proyectos, git add es para pasar los archivos, git status para ver el estado de los archivos y en 
+donde se encuentran, git commit para crear como una primera foto de la versión del código, git push para 
+subirlo a un repositorio remoto, git pull para ver los cambios que han hecho los otros, git clone crear 
+una copia del código. Luego con el video se pasa a la pracitica instalando git  y seleccionando unas 
+cuantas configuraciones. Luego se practica utilizando los proyectos e incluso el git init para crearlo. 
+Vemos el uso común de algunos comandos básicos. En el video vemos el uso del Branch que es una rama extra
+en donde podemos ejecutar algunos comandos de git de forma aislada, es decir que no se hacen directamente
+ en git si no como una rama secundaria, para ver el estado etc de nuestro proyecto. Luego hacemos a la 
+ practica lo que es git add, git status y git commit etc, hasta que llegamos a el minuto 37 del video 
+ aproximadamente y vemos una introducción sobre github en donde vemos que es una herramienta web en 
+ donde podemos subir los códigos y nuestros proyectos y dejarlos para que sean públicos o privados.
+
+Responder las siguientes preguntas:
+1.	¿Qué es GIT?
+Git es un sistema de control de versiones distribuido que permite a los desarrolladores gestionar y 
+monitorear cambios en el código fuente a lo largo del tiempo. Facilita la colaboración en proyectos, 
+permitiendo a múltiples desarrolladores trabajar en el mismo código simultáneamente. 
+
+2.	¿Cuáles son los comandos más importantes y para que sirven?
+Git init: Inicializa un nuevo repositorio.git add: Añade cambios de archivos al área de preparación 
+(staging area).git commit: Guarda los cambios en el repositorio local con un mensaje descriptivo.git 
+status: Muestra el estado de los archivos en el repositorio.git pull: Descarga y fusiona cambios desde 
+un repositorio remoto.git push: Sube los cambios al repositorio remoto.git clone: Crea una copia del 
+repositorio remoto en la máquina local.
+
+3.	¿Cuál es la diferencia entre Git y Github?
+Git es una herramienta de control de versiones que se utiliza en local para rastrear cambios en el 
+código, mientras que GitHub es una plataforma web para alojar repositorios Git. GitHub permite la 
+colaboración, almacenamiento y gestión de proyectos de código usando Git.
+
+4.	Enumere los comandos para subir cambios a un repositorio.
+git add : Agrega el archivo específico al área de preparación.git commit -m "mensaje": 
+Confirma los cambios en el repositorio local con un mensaje.git push origin <branch>: Sube 
+los cambios al repositorio remoto en la rama especificada.
+
+5.	¿Qué es una branch?
+Una "branch" (rama) en Git es una línea de desarrollo independiente que permite trabajar 
+en diferentes características o cambios de manera aislada sin afectar al código principal 
+(master o main). Esto permite experimentar y realizar pruebas antes de fusionar cambios completos 
+al código base.
+
+6. ¿Cuál es la diferencia entre un repositorio local y un repositorio remoto?
+Repositorio local: Es la copia que resides en la máquina propia del desarrollador. Incluye todos los 
+archivos del proyecto y su historial de cambios.Repositorio remoto: Es una versión del repositorio que 
+se almacena en un servidor (como GitHub, GitLab, etc.). Permite a colaboradores acceder y contribuir al 
+proyecto desde diferentes ubicaciones.
+
+7. Cuales son los comandos básicos para:
+     - Inicializar  o crear un repositorio o proyecto = git in it 
+     - Descargar un repositorio =  git clone <url del repositorio>
+     - Agregar archivos a un repositorio local = git add > (o git add . para agregar todos los cambios)
+     - Confirmar cambios en un repositorio local = git commit - "mensaje descriptivo"
+     - Subir cambios a un repositorio remoto = git push origin  de la rama>
+     - Revertir cambios en una Branch = git checkout <archivo> (para revertir un archivo específico 
+     al último commit) o git reset --hard HEAD~1 (para retroceder un commit completo). 
+
